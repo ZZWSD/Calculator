@@ -8,7 +8,7 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
         <TextBox x:Name="txtNumber" HorizontalAlignment="Left" Height="49" Margin="197,43,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="543"/>
-        <Button x:Name="btnClear" Content="AC" HorizontalAlignment="Left" Height="40" Margin="49,128,0,0" VerticalAlignment="Top" Width="123"/>
+        <Button x:Name="btnClear" Content="AC" HorizontalAlignment="Left" Height="40" Margin="49,128,0,0" VerticalAlignment="Top" Width="123" Click="btnClear_Click"/>
         <Button x:Name="btnSeven" Content="7" HorizontalAlignment="Left" Height="40" Margin="217,128,0,0" VerticalAlignment="Top" Width="123" Click="btnSeven_Click"/>
         <Button x:Name="btnEight" Content="8" HorizontalAlignment="Left" Height="40" Margin="382,128,0,0" VerticalAlignment="Top" Width="123" Click="btnEight_Click"/>
         <Button x:Name="btnNine" Content="9" HorizontalAlignment="Left" Height="40" Margin="538,128,0,0" VerticalAlignment="Top" Width="123" Click="btnNine_Click"/>
@@ -21,9 +21,9 @@
         <Button x:Name="btnTwo" Content="2" HorizontalAlignment="Left" Height="40" Margin="382,260,0,0" VerticalAlignment="Top" Width="123" Click="btnTwo_Click"/>
         <Button x:Name="btnThree" Content="3" HorizontalAlignment="Left" Height="40" Margin="538,260,0,0" VerticalAlignment="Top" Width="123" Click="btnThree_Click"/>
         <Button x:Name="btnMinus" Content="-" HorizontalAlignment="Left" Height="40" Margin="677,260,0,0" VerticalAlignment="Top" Width="123" Click="btnMinus_Click"/>
-        <Button x:Name="btnDot" Content="." HorizontalAlignment="Left" Height="40" Margin="217,325,0,0" VerticalAlignment="Top" Width="123"/>
+        <Button x:Name="btnDot" Content="." HorizontalAlignment="Left" Height="40" Margin="217,325,0,0" VerticalAlignment="Top" Width="123" Click="btnDot_Click"/>
         <Button x:Name="btnZero" Content="0" HorizontalAlignment="Left" Height="40" Margin="382,325,0,0" VerticalAlignment="Top" Width="123" Click="btnZero_Click"/>
-        <Button x:Name="btnEqual" Content="=" HorizontalAlignment="Left" Height="40" Margin="538,325,0,0" VerticalAlignment="Top" Width="123"/>
+        <Button x:Name="btnEqual" Content="=" HorizontalAlignment="Left" Height="40" Margin="538,325,0,0" VerticalAlignment="Top" Width="123" Click="btnEqual_Click"/>
         <Button x:Name="btnAdd" Content="+" HorizontalAlignment="Left" Height="40" Margin="677,325,0,0" VerticalAlignment="Top" Width="123" Click="btnAdd_Click"/>
 
     </Grid>
